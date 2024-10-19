@@ -4,7 +4,7 @@ import org.demoJenkins.common.DefaultContext
 import org.demoJenkins.steps.BuildStage
 import org.demoJenkins.steps.DeployStage
 import org.demoJenkins.steps.TestStage
-
+import org.demoJenkins.common.ContextRegistry
 class PipelineLauncher implements Serializable {
 
     def script  // Pipeline script (context)
