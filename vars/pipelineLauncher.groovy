@@ -1,29 +1,27 @@
 // vars/pipelineLauncher.groovy
 
-import org.demoJenkins.steps.BuildStage
-import org.demoJenkins.steps.TestStage
-import org.demoJenkins.steps.DeployStage
+class PipelineLauncher implements Serializable {
 
-def call() {
-    node {
-        try {
-            // Initialize each stage with the pipeline context (this)
-            def buildStage = new BuildStage(this)
-            def testStage = new TestStage(this)
-            def deployStage = new DeployStage(this)
+    def script  // Pipeline script (context)
 
-            // Execute the stages
-            buildStage.run()
-            testStage.run()
-            deployStage.run()
+    // Constructor to initialize the pipeline launcher with the Jenkins script
+    PipelineLauncher(def script) {
+        this.script = script
+    }
 
-        } catch (Exception e) {
-            currentBuild.result = 'FAILURE'
-            echo "Pipeline failed: ${e.message}"
-            throw e
-        } finally {
-            echo 'Pipeline completed.'
-        }
+    // Executes the entire pipeline by running each stage
+    def run() {
+        // Register the pipeline context using the ContextRegistry
+        ContextRegistry.registerContext(new DefaultContext(script))
+
+        // Initialize and run each stage
+        def buildStage = new BuildStage()
+        def testStage = new TestStage()
+        def deployStage = new DeployStage()
+
+        buildStage.execute('Build Stage')
+        testStage.execute('Test Stage')
+        deployStage.execute('Deploy Stage')
     }
 }
 

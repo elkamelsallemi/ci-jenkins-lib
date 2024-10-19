@@ -1,17 +1,13 @@
 package org.demoJenkins.steps
 
-class BuildStage {
-    def script
+class BuildStage extends BaseStage{
 
-    BuildStage(script) {
-        this.script = script
-    }
+    @Override
+    void runStage() {
+        def context = ContextRegistry.getContext()
+        def script = context.getSteps()
 
-    def run() {
-        script.stage('Build') {
-            script.echo 'Running Build Stage...'
-            // Add build commands (e.g., Maven or Gradle build)
-            script.sh 'echo "Building the project..."'
-        }
+        // Simulate build step
+        script.sh 'echo "Building the project..."'
     }
 }
