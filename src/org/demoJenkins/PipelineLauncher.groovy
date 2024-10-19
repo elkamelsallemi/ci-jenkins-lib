@@ -1,4 +1,9 @@
-// vars/pipelineLauncher.groovy
+package org.demoJenkins
+
+import org.demoJenkins.common.DefaultContext
+import org.demoJenkins.steps.BuildStage
+import org.demoJenkins.steps.DeployStage
+import org.demoJenkins.steps.TestStage
 
 class PipelineLauncher implements Serializable {
 
@@ -24,4 +29,3 @@ class PipelineLauncher implements Serializable {
         deployStage.execute('Deploy Stage')
     }
 }
-
