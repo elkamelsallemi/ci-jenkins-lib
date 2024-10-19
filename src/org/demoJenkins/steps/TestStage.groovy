@@ -1,4 +1,5 @@
 package org.demoJenkins.steps
+import org.demoJenkins.common.ContextRegistry
 
 class TestStage extends BaseStage{
 

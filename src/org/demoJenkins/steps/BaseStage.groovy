@@ -1,4 +1,5 @@
 package org.demoJenkins.steps
+import org.demoJenkins.common.ContextRegistry
 
 abstract class BaseStage implements Serializable {
 
