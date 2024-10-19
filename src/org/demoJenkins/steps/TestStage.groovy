@@ -1,6 +1,6 @@
 package org.demoJenkins.steps
 
-class TestStage {
+class TestStage extends BaseStage{
 
     @Override
     void runStage() {
