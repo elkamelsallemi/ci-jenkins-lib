@@ -24,7 +24,7 @@ class PipelineLauncher implements Serializable {
         def testStage = new TestStage()
         def deployStage = new DeployStage()
 
-        buildStage.execute('Build Stage')
+        buildStage.execute('Build Stage 2')
         testStage.execute('Test Stage')
         deployStage.execute('Deploy Stage')
     }
