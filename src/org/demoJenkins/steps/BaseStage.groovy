@@ -3,6 +3,7 @@ package org.demoJenkins.steps
 import org.demoJenkins.common.IJenkinsSteps
 import org.demoJenkins.common.ContextRegistry
 
+
 abstract class BaseStage implements Serializable {
 
     // Abstract method that must be implemented by each specific stage

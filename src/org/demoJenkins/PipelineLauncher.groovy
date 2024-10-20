@@ -5,6 +5,8 @@ import org.demoJenkins.steps.BuildStage
 import org.demoJenkins.steps.DeployStage
 import org.demoJenkins.steps.TestStage
 import org.demoJenkins.common.ContextRegistry
+import org.demoJenkins.common.JobConfiguration
+
 class PipelineLauncher implements Serializable {
 
     def script  // Pipeline script (context)
@@ -18,6 +20,9 @@ class PipelineLauncher implements Serializable {
     def run() {
         // Register the pipeline context using the ContextRegistry
         ContextRegistry.registerContext(new DefaultContext(script))
+
+        // Apply job properties and parameters via JobConfiguration
+        JobConfiguration.configure(script)
 
         // Initialize and run each stage
         def buildStage = new BuildStage()
