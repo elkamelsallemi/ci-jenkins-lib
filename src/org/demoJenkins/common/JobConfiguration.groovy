@@ -15,7 +15,8 @@ class JobConfiguration implements Serializable {
                 script.parameters([
                         script.string(name: 'BRANCH', defaultValue: 'main', description: 'Git branch to build'),
                         script.choice(name: 'DEPLOY_ENV', choices: ['dev', 'staging', 'production'], description: 'Environment to deploy'),
-                        script.booleanParam(name: 'SKIP_TESTS', defaultValue: false, description: 'Skip the test execution')
+                        script.booleanParam(name: 'SKIP_TESTS', defaultValue: false, description: 'Skip the test execution'),
+                        script.booleanParam(name: 'TEST', defaultValue: false, description: 'test execution')
                 ]),
 
                 // Add a cron trigger to run the job at 2 AM every day
