@@ -9,6 +9,10 @@ class ContextRegistry implements Serializable{
         _context = context
     }
 
+    static void registerDefaultContext(Object steps) {
+        _context = new DefaultContext(steps)
+    }
+
     // Returns the registered context
     static IJenkinsContext getContext() {
         return _context
