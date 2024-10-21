@@ -6,25 +6,20 @@ import org.demoJenkins.common.ContextRegistry
 
 abstract class BaseStage implements Serializable {
 
-    // Abstract method that must be implemented by each specific stage
-    abstract void runStage()
+    protected IJenkinsSteps _steps
 
-    // Executes the stage logic with error handling and logging
-    void execute(String stageName) {
-        def context = ContextRegistry.getContext()  // Get context from ContextRegistry
-        IJenkinsSteps steps = context as IJenkinsSteps  // Cast to IJenkinsSteps interface
+    BaseStage(){}
 
-//        def script = context.getSteps()  // Get Jenkins steps (e.g., 'sh', 'echo', 'stage')
-
-        steps.stage(stageName) {
-            try {
-                steps.echo "Starting ${stageName}..."
-                runStage()  // Call the stage-specific logic
-                steps.echo "${stageName} completed."
-            } catch (Exception e) {
-                steps.echo "${stageName} failed with error: ${e.message}"
-                steps.sh("exit 1")  // Handle the error appropriately
-            }
-        }
+    BaseStage(IJenkinsSteps steps){
+        this._steps = steps
     }
+
+    def stage(String name, Closure body ){
+        return _steps.stage(name,body)
+    }
+
+    def echo(String message){
+        return _steps.echo(message)
+    }
+
 }

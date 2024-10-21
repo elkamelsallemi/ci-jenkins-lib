@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a016ab7f-669f-4eb0-aa31-081aa3b6f223" name="Changes" comment="Update" />
+    <list default="true" id="a016ab7f-669f-4eb0-aa31-081aa3b6f223" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/org/demoJenkins/common/IJenkinsContext.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/demoJenkins/common/StepsExecutor.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/demoJenkins/job/pipelineTemplateJob.pipeline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/demoJenkins/template/PipelineTemplate.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/varsPipelineTemplateLauncher.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/PipelineLauncher.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/common/ContextRegistry.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/common/ContextRegistry.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/common/DefaultContext.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/common/DefaultContext.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/common/IJenkinsSteps.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/common/IJenkinsSteps.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/common/JobConfiguration.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/steps/BaseStage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/steps/BaseStage.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/steps/BuildStage.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/steps/DeployStage.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/steps/TestStage.groovy" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729411435299</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update">
+      <option name="closed" value="true" />
+      <created>1729434218812</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729434218812</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,15 +1,16 @@
 package org.demoJenkins.common
 
 class ContextRegistry implements Serializable{
-    private static def _context  // Store the Jenkins context (script/steps)
+
+    private static IJenkinsContext _context  // Store the Jenkins context (script/steps)
 
     // Registers a context globally
-    static void registerContext(def context) {
+    static void registerContext(IJenkinsContext context) {
         _context = context
     }
 
     // Returns the registered context
-    static def getContext() {
+    static IJenkinsContext getContext() {
         return _context
     }
 }
