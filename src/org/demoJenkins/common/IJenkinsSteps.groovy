@@ -10,5 +10,17 @@ interface IJenkinsSteps {
 
     def stage(String name, Closure body)
 
+    /**
+    * https://www.jenkins.io/doc/pipeline/steps/workflow-cps/#parallel-execute-in-parallel
+
+    parallel firstBranch: {
+        // do something
+    }, secondBranch: {
+        // do something else
+    },
+    failFast: true|false
+    */
+
+    void parallel(Map namesToClosures)
 
 }

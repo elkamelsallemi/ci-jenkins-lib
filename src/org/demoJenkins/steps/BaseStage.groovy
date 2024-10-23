@@ -20,8 +20,8 @@ abstract class BaseStage implements Serializable {
         return _steps.echo(message)
     }
 
-    def parameters(List param){
-        return _steps.parameters(param)
+    void parallel(Map namesToClosures){
+        this._steps.parallel(namesToClosures)
     }
 
 }

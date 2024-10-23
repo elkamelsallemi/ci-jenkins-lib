@@ -9,7 +9,6 @@ class StepsExecutor implements IJenkinsSteps, Serializable {
     }
 
 
-
     @Override
     def getRawStep() {
         return this._steps
@@ -30,6 +29,8 @@ class StepsExecutor implements IJenkinsSteps, Serializable {
         return this._steps.stage(name,body)
     }
 
-
-
+    @Override
+    void parallel(Map namesToClosures) {
+        this._steps.parallel(namesToClosures)
+    }
 }
