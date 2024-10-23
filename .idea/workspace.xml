@@ -5,72 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a016ab7f-669f-4eb0-aa31-081aa3b6f223" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-ant-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-ant-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-astbuilder-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-astbuilder-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-commons-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-commons-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-picocli-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-picocli-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-console-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-console-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-contracts-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-contracts-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-datetime-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-datetime-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-dateutil-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-dateutil-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-docgenerator-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-docgenerator-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-ginq-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-ginq-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-groovydoc-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-groovydoc-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-groovysh-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-groovysh-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-jmx-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-jmx-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-json-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-json-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-jsr223-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-jsr223-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-library-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-library-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-nio-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-nio-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-servlet-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-servlet-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-sql-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-sql-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-swing-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-swing-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-templates-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-templates-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-test-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-test-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-test-junit5-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-test-junit5-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-testng-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-testng-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-toml-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-toml-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-typecheckers-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-typecheckers-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-xml-5.0.0-alpha-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/groovy-xml-5.0.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/demoJenkins/dto/InputDTO.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/Library.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/common/IJenkinsSteps.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/common/IJenkinsSteps.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/common/StepsExecutor.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/common/StepsExecutor.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/job/pipelineTemplateJob.pipeline" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/job/pipelineTemplateJob.pipeline" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/steps/BaseStage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/steps/BaseStage.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/dto/InputDTO.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/dto/InputDTO.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/demoJenkins/template/PipelineTemplate.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/demoJenkins/template/PipelineTemplate.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/varsPipelineTemplateLauncher.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/varsPipelineTemplateLauncher.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,18 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/elkam/IdeaProjects/ci-jenkins-lib/src/main/java/org/demoJenkins/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/elkam/IdeaProjects/ci-jenkins-lib/src/main/java/org/demoJenkins/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.demoJenkins" />
@@ -234,7 +172,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729548190042</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update">
+      <option name="closed" value="true" />
+      <created>1729685250814</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729685250814</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update">
+      <option name="closed" value="true" />
+      <created>1729685299381</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729685299381</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
