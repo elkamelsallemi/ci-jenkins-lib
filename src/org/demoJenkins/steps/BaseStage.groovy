@@ -1,8 +1,6 @@
 package org.demoJenkins.steps
 
 import org.demoJenkins.common.IJenkinsSteps
-import org.demoJenkins.common.ContextRegistry
-
 
 abstract class BaseStage implements Serializable {
 
@@ -20,6 +18,10 @@ abstract class BaseStage implements Serializable {
 
     def echo(String message){
         return _steps.echo(message)
+    }
+
+    def parameters(List param){
+        return _steps.parameters(param)
     }
 
 }

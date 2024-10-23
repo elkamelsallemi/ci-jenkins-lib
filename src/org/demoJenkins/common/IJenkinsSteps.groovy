@@ -10,4 +10,5 @@ interface IJenkinsSteps {
 
     def stage(String name, Closure body)
 
+
 }
