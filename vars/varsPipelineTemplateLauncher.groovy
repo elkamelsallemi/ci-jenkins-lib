@@ -13,7 +13,7 @@ def setInputDTOValues(Map params) {
     inputDTO.extraParam = params.extraParam ?: 'defaultExtraParam'
 }
 
-def runPipelineTemplate(steps, InputDTO inputDTO){
+def runPipelineTemplate(steps){
     ContextRegistry.registerDefaultContext(steps)
     IJenkinsSteps stepExecutor = ContextRegistry.getContext().getStepExecutor()
     return new PipelineTemplate(stepExecutor).run(inputDTO)
