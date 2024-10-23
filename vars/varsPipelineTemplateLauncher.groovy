@@ -20,3 +20,4 @@ def runPipelineTemplate(steps, InputDTO inputDTO){
     IJenkinsSteps stepExecutor = ContextRegistry.getContext().getStepExecutor()
     return new PipelineTemplate(stepExecutor).run(inputDTO)
 }
+  

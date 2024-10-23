@@ -23,6 +23,18 @@ class PipelineTemplate extends BaseStage implements Serializable{
             stage('test stage') {
                 this._steps.echo('stage test Environment')
                 this._steps.echo(inputDTO.gitUrl)
+                parallel {
+                    stage('Build') {
+                        steps {
+                            sh 'mvn clean package'
+                        }
+                    }
+                    stage('Test') {
+                        steps {
+                            sh 'mvn test'
+                        }
+                    }
+                }
             }
             stage('build stage') {
                 this._steps.echo('stage build Environment')
