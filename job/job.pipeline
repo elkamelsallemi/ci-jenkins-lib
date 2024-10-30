@@ -5,7 +5,7 @@
 def constant
 node {
 
-    constant = load 'constant.groovy'
+    constant = load 'job/constant.groovy'
     // Set the values for InputDTO using the setInputDTOValues method
     def input = varsPipelineTemplateLauncher.setInputDTOValues([
         name       :  constant.test,
