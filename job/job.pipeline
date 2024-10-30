@@ -5,18 +5,6 @@
 
 node {
 
-    stage('Verify Workspace') {
-            script {
-                sh 'ls -R'  // Lists all files in the workspace to verify the paths
-            }
-    }
-
-    stage('Load Constants') {
-            script {
-                def constant = load 'job/constant.groovy'
-                echo "Loaded constant.groovy successfully!"
-            }
-    }
     // Set the values for InputDTO using the setInputDTOValues method
     def input = varsPipelineTemplateLauncher.setInputDTOValues([
         name       :  constant.test,
