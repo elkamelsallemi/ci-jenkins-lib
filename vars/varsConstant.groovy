@@ -1,5 +1,5 @@
-class varsConstant {
-    static final String MY_CONSTANT = "This is a constant value"
-    static final int MAX_LIMIT = 100
-}
+
+MY_CONSTANT = "This is a constant value"
+MAX_LIMIT = 100
+
 
