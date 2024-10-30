@@ -1,0 +1,17 @@
+#!groovy
+
+@Library('ci-jenkins-lib') _
+
+def constant
+node {
+
+    constant = load 'constant.groovy'
+    // Set the values for InputDTO using the setInputDTOValues method
+    def input = varsPipelineTemplateLauncher.setInputDTOValues([
+        name       :  constant.test,
+        gitUrl     : 'https://github.com/test/project.git',
+        extraParam : 'extraValue'
+    ])
+
+    varsPipelineTemplateLauncher.runPipelineTemplate(this,input)
+}
