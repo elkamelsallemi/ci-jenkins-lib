@@ -11,7 +11,7 @@ node {
             }
     }
 
-    tstage('Load Constants') {
+    stage('Load Constants') {
             script {
                 def constant = load 'job/constant.groovy'
                 echo "Loaded constant.groovy successfully!"
