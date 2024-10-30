@@ -6,7 +6,7 @@
 node {
 
     this.stage('Verify Workspace') {
-        this.steps {
+        this._steps {
             script {
                 sh 'ls -R'  // Lists all files in the workspace to verify the paths
             }
@@ -14,7 +14,7 @@ node {
     }
 
     this.stage('Load Constants') {
-        this.steps {
+        this._steps {
             script {
                 def constant = load 'job/constant.groovy'
                 echo "Loaded constant.groovy successfully!"

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a016ab7f-669f-4eb0-aa31-081aa3b6f223" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/job/job.pipeline" beforeDir="false" afterPath="$PROJECT_DIR$/job/job.pipeline" afterDir="false" />
-    </list>
+    <list default="true" id="a016ab7f-669f-4eb0-aa31-081aa3b6f223" name="Changes" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -306,7 +304,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730285950923</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update">
+      <option name="closed" value="true" />
+      <created>1730286191944</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1730286191944</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Update">
+      <option name="closed" value="true" />
+      <created>1730286248424</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1730286248424</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
