@@ -1,4 +1,4 @@
-final Stringtest = 'test'
+final String test = 'test'
 
 
 return this
