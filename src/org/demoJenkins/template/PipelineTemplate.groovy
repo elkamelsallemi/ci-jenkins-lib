@@ -17,21 +17,22 @@ class PipelineTemplate extends BaseStage implements Serializable{
     void triggerFlow(InputDTO inputDTO){
         try {
             parallel firstBranch: {
-                stage('Init Environment') {
+                this._steps.stage('Init Environment') {
+                    this._steps.echo('stage Init Environment')
                     echo('stage Init Environment')
-                    echo(inputDTO.name)
+                    this._steps.echo(inputDTO.name)
                 }
                 stage('test stage') {
-                    echo('stage test Environment')
-                    echo(inputDTO.gitUrl)
+                    this._steps.echo('stage test Environment')
+                    this._steps.echo(inputDTO.gitUrl)
 
                 }
             }, secondBranch: {
-                echo('stage test Environment')
+                this._steps.echo('stage test Environment')
             }
 
             stage('build stage') {
-                echo('stage build Environment')
+                this._steps.echo('stage build Environment')
             }
         }catch (e) {
             throw e
