@@ -5,7 +5,7 @@ import org.demoJenkins.template.PipelineTemplate
 
 
 InputDTO getInputDTO(Map setInputValuesDTO) {
-    return new inputDTO(setInputValuesDTO)
+    return new InputDTO(setInputValuesDTO)
 }
 
 def runPipelineTemplate(steps, InputDTO inputDTO){
