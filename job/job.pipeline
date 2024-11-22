@@ -7,7 +7,7 @@ node {
 
     // Set the values for InputDTO using the setInputDTOValues method
     def input = varsPipelineTemplateLauncher.getInputDTO([
-        name       :  constant.test,
+        name       :  "test",
         gitUrl     : 'https://github.com/test/project.git',
         extraParam : 'extraValue'
     ])
