@@ -3,6 +3,7 @@
 package org.demoJenkins.job
 
 node {
+
     varsPipelineTemplateLauncher.runPipelineTemplate(this)
 }
 

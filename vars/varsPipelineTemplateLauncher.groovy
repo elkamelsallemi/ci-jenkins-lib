@@ -4,15 +4,8 @@ import org.demoJenkins.dto.InputDTO
 import org.demoJenkins.template.PipelineTemplate
 
 
-def setInputDTOValues(Map params) {
-
-    InputDTO inputDTO = new InputDTO()
-
-    inputDTO.name = params.name ?: 'defaultName'
-    inputDTO.gitUrl = params.gitUrl ?: 'defaultUrl'
-    inputDTO.extraParam = params.extraParam ?: 'defaultExtraParam'
-
-    return inputDTO
+InputDTO getInputDTO(Map setInputValuesDTO) {
+    return new inputDTO(setInputValuesDTO)
 }
 
 def runPipelineTemplate(steps, InputDTO inputDTO){
