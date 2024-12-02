@@ -16,23 +16,12 @@ class PipelineTemplate extends BaseStage implements Serializable{
 
     void triggerFlow(InputDTO inputDTO){
         try {
-            parallel firstBranch: {
-                this._steps.stage('Init Environment') {
-                    this._steps.echo('stage Init Environment')
-                    echo('stage Init Environment')
-                    this._steps.echo(inputDTO.name)
-                }
-                stage('test stage') {
-                    this._steps.echo('stage test Environment')
-                    this._steps.echo(inputDTO.gitUrl)
-
-                }
-            }, secondBranch: {
-                this._steps.echo('stage test Environment')
-            }
-
             stage('build stage') {
+                String version='0.0.dev1g824dc41d'
+                String PATH='resource/pkg_meta.py'
                 this._steps.echo('stage build Environment')
+                this._steps.sh("cat ${PATH}")
+                this._steps.sh("sed -ri 's/(^\\s*__version__\\s*=\\s*).*/\\1\\\"0.0.dev1g824dc41d\\\"/' ${PATH}")
             }
         }catch (e) {
             throw e
