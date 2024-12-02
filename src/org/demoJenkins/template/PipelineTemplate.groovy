@@ -20,14 +20,13 @@ class PipelineTemplate extends BaseStage implements Serializable{
                 String version='0.0.dev1g824dc41d'
                 String PATH='pkg_meta.py'
                 this._steps.echo('stage build Environment')
-                this._steps.sh("ls -l")
+                this._steps.sh("rm pkg_meta.py")
                 this._steps.sh '''
-                cat <<EOF >> pkg_meta.py
+                cat > pkg_meta.py<<EOF 
                 __version__ = "0.0.1"
+                EOF
                 '''
-                this._steps.sh("ls -l")
-                this._steps.sh("cat pkg_meta.py")
-                this._steps.sh("sed -ri 's/(^\\s*__version__\\s*=\\s*).*/\\1\\\"0.0.dev1g824dc41d\\\"/' ${PATH}")
+                this._steps.sh("sed -ri 's/(^\\s*__version__\\s*=\\s*).*/\\1\\\"${version}\\\"/' ${PATH}")
                 this._steps.sh("cat pkg_meta.py")
             }
         }catch (e) {
