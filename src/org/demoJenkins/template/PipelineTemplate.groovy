@@ -24,7 +24,6 @@ class PipelineTemplate extends BaseStage implements Serializable{
                 this._steps.sh '''
                 cat <<EOF >> pkg_meta.py
                 __version__ = "0.0.1"
-                EOF
                 '''
                 this._steps.sh("ls -l")
                 this._steps.sh("cat pkg_meta.py")
